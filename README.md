@@ -1,6 +1,6 @@
 # PopNet
 
-Code of PopNet (coming soon)
+Code of [PopNet](https://arxiv.org/pdf/2212.05370.pdf) (coming soon)
 
 
 
