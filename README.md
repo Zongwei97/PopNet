@@ -1,5 +1,7 @@
 # PopNet
 
+This is the official implementation of Source-free Depth for Object Pop-out, ICCV'23
+
 Code of [PopNet](https://arxiv.org/pdf/2212.05370.pdf) (coming soon)
 
 
