@@ -14,17 +14,11 @@ Depth cues are known to be useful for visual perception. However, direct measure
 
 # Training/Testing Datasets
 
-## RGB-D SOD
-
 The RGB-D datasets with GT depth can be found at [SPNet](https://github.com/taozh2017/SPNet).
-
-## COD
 
 The COD dataset with source-free depth can downloaded from here ([Training](https://drive.google.com/file/d/1z903IE3fQderj_ngOi1rIsnTDhT7NHDS/view?usp=sharing)/[Testing](https://drive.google.com/file/d/1xd_Pe4oQZJqHX5NHSswwGk7AoaeH38eQ/view?usp=sharing))
 
 # Results 
-
-
 
 ## RGB-D SOD
 
@@ -50,7 +44,7 @@ python train.py
 python test_produce_maps.py
 python test_evaluation_maps.py
 ```
-Make sure that you have changed the path to your dataset in the [config file](https://github.com/Zongwei97/PopNet/blob/main/Code/utils/options.py)
+Make sure that you have changed the path to your dataset in the [config file](https://github.com/Zongwei97/PopNet/blob/main/Code/utils/options.py) and in the abovementioned python files.
 
 We use the same evaluation protocol as [here](https://github.com/taozh2017/SPNet/blob/main/test_evaluation_maps.py)
 
