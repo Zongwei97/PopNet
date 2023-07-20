@@ -27,6 +27,9 @@ The COD dataset with source-free depth can downloaded from here ([Training](http
 
 Our results for RGB-D salient object detection (SOD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1lyVTH_MhLxYam6Xr0WKsoa3SsMLwIs4W/view?usp=sharing)).
 
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/rgbd.png)
+
+
 ## COD
 
 Our results for camouflaged object detection (COD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1m8Ht5A4uzvmvSXhn8hEfMJeam7pvaoia/view?usp=sharing)).
