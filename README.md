@@ -18,22 +18,6 @@ The RGB-D datasets with GT depth can be found at [SPNet](https://github.com/taoz
 
 The COD dataset with source-free depth can downloaded from here ([Training](https://drive.google.com/file/d/1z903IE3fQderj_ngOi1rIsnTDhT7NHDS/view?usp=sharing)/[Testing](https://drive.google.com/file/d/1xd_Pe4oQZJqHX5NHSswwGk7AoaeH38eQ/view?usp=sharing))
 
-# Results 
-
-## RGB-D SOD
-
-Our results for RGB-D salient object detection (SOD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1lyVTH_MhLxYam6Xr0WKsoa3SsMLwIs4W/view?usp=sharing)).
-
-![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/rgbd.png)
-
-
-## COD
-
-Our results for camouflaged object detection (COD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1m8Ht5A4uzvmvSXhn8hEfMJeam7pvaoia/view?usp=sharing)).
-
-The checkpoint can be downloaded here ([Google Drive](https://drive.google.com/file/d/103FbjqVvmpoArA1ubd3f8vxiZYuUzbjH/view?usp=sharing)).
-
-![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/results.png)
 
 # Train and Test
 
@@ -47,5 +31,36 @@ python test_evaluation_maps.py
 Make sure that you have changed the path to your dataset in the [config file](https://github.com/Zongwei97/PopNet/blob/main/Code/utils/options.py) and in the abovementioned python files.
 
 We use the same evaluation protocol as [here](https://github.com/taozh2017/SPNet/blob/main/test_evaluation_maps.py)
+
+
+# Results 
+
+### RGB-D SOD
+
+Our results for RGB-D salient object detection (SOD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1lyVTH_MhLxYam6Xr0WKsoa3SsMLwIs4W/view?usp=sharing)).
+
+##### Quantitative comparison
+
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/SOD.png)
+
+##### Qualitative comparison
+
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/rgbd.png)
+
+
+### COD
+
+Our results for camouflaged object detection (COD) benchmarks can be downloaded here ([Google Drive](https://drive.google.com/file/d/1m8Ht5A4uzvmvSXhn8hEfMJeam7pvaoia/view?usp=sharing)).
+
+The checkpoint can be downloaded here ([Google Drive](https://drive.google.com/file/d/103FbjqVvmpoArA1ubd3f8vxiZYuUzbjH/view?usp=sharing)).
+
+##### Quantitative comparison
+
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/SOD.png)
+
+##### Qualitative comparison
+
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/results.png)
+
 
 
