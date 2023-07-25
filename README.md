@@ -1,6 +1,6 @@
-# PopNet
+# Source-free Depth for Object Pop-out, ICCV'23
 
-This is the official implementation of [Source-free Depth for Object Pop-out](https://arxiv.org/pdf/2212.05370.pdf), ICCV'23
+This is the official implementation of [Source-free Depth for Object Pop-out](https://arxiv.org/pdf/2212.05370.pdf)
 
 <img src="https://github.com/Zongwei97/PopNet/blob/main/Imgs/popout.png"  width="500" />
 
