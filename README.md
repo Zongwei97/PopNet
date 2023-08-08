@@ -21,14 +21,14 @@ The COD dataset with source-free depth can downloaded from here ([Training](http
 
 # Train and Test
 
-Please follow the train, inference, and evaluation steps:
+Please follow the training, inference, and evaluation steps:
 
 ```
 python train.py
 python test_produce_maps.py
 python test_evaluation_maps.py
 ```
-Make sure that you have changed the path to your dataset in the [config file](https://github.com/Zongwei97/PopNet/blob/main/Code/utils/options.py) and in the abovementioned python files.
+Make sure that you have changed the path to your dataset in the [config file](https://github.com/Zongwei97/PopNet/blob/main/Code/utils/options.py) and in the abovementioned Python files.
 
 We use the same evaluation protocol as [here](https://github.com/taozh2017/SPNet/blob/main/test_evaluation_maps.py)
 
@@ -63,4 +63,22 @@ The checkpoint can be downloaded here ([Google Drive](https://drive.google.com/f
 ![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/results.png)
 
 
+## Towards urban applications
 
+We take the pretrained/freezed COD ckpt and figure out that our method can also generalize well on nightlight urban scenes:
+
+![abstract](https://github.com/Zongwei97/PopNet/blob/main/Imgs/freezed.png)
+
+# Citation
+
+If you find this repo useful, please consider citing:
+
+```
+@INPROCEEDINGS{wu2023popnet,
+  author={Wu, Zongwei and Paudel, Danda Pani and Fan, Deng-Ping and Wang, Jingjing and Wang, Shuo and Demonceaux, Cédric and Timofte, Radu and Van Gool, Luc},
+  booktitle={ICCV}, 
+  title={Source-free depth for object pop-out},
+  year={2023},
+}
+  
+```
