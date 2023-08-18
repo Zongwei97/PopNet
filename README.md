@@ -75,9 +75,9 @@ If you find this repo useful, please consider citing:
 
 ```
 @INPROCEEDINGS{wu2023popnet,
+  title={Source-free depth for object pop-out},
   author={Wu, Zongwei and Paudel, Danda Pani and Fan, Deng-Ping and Wang, Jingjing and Wang, Shuo and Demonceaux, Cédric and Timofte, Radu and Van Gool, Luc},
   booktitle={ICCV}, 
-  title={Source-free depth for object pop-out},
   year={2023},
 }
   
