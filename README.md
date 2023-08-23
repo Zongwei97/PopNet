@@ -84,7 +84,7 @@ If you find this repo useful, please consider citing:
 ```
 
 # Related works
-- ACMMM 23 - Object Segmentation by Mining Cross-Modal Semantics [[Code](https://github.com/Zongwei97/XMSNet))]
+- ACMMM 23 - Object Segmentation by Mining Cross-Modal Semantics [[Code](https://github.com/Zongwei97/XMSNet)]
 - TIP 23 - HiDANet: RGB-D Salient Object Detection via Hierarchical Depth Awareness [[Code](https://github.com/Zongwei97/HIDANet)]
 - 3DV 22 - Robust RGB-D Fusion for Saliency Detection [[Code](https://github.com/Zongwei97/RFnet)]
 - 3DV 21 - Modality-Guided Subnetwork for Salient Object Detection [[Code](https://github.com/Zongwei97/MGSnet)]
