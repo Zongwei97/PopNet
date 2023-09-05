@@ -110,6 +110,7 @@ def train(train_loader, model, optimizer, epoch, save_path):
             t = pre_res[-2]
             t = (t - t.min()) / (t.max() - t.min() + 1e-8)
 
+            # diff = t - pre_depth (it would be more reasonable using t-pre_depth)
             diff = pre_depth -t
             thresh = F.sigmoid(10*diff)
 
