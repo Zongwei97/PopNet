@@ -83,6 +83,13 @@ If you find this repo useful, please consider citing:
   
 ```
 
+# Open Discussion
+
+In the paper, we have made "an assumption that pixels in front of the contact surface belong to objects". Thus, we conduct Dpo-Dc for depth2semantic transfer. However, it would be more logical and reasonable if we used Dc-Dpo. However, such a difference should not severely impact the final results.
+
+
+
+
 # Related works
 - ACMMM 23 - Object Segmentation by Mining Cross-Modal Semantics [[Code](https://github.com/Zongwei97/XMSNet)]
 - TIP 23 - HiDANet: RGB-D Salient Object Detection via Hierarchical Depth Awareness [[Code](https://github.com/Zongwei97/HIDANet)]
