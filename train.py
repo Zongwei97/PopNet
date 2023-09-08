@@ -16,8 +16,7 @@ from loss import *
 from Code.lib.sobel import *
 
 
-get_gradient = Sobel().cuda()
-cos = nn.CosineSimilarity(dim=1, eps=0)
+
 
 # set the device for training
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
