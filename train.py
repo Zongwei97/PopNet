@@ -104,8 +104,7 @@ def train(train_loader, model, optimizer, epoch, save_path):
             loss5 = smooth_normal_loss(pre_depth*gts)
             
             loss6 = weighted_total_variant(pre_depth,gts) 
-            
-            loss7 = structure_loss(thresh, gts)
+
 
             t = pre_res[-2]
             t = (t - t.min()) / (t.max() - t.min() + 1e-8)
@@ -114,7 +113,8 @@ def train(train_loader, model, optimizer, epoch, save_path):
             diff = pre_depth -t
             thresh = F.sigmoid(10*diff)
 
-
+            
+            loss7 = structure_loss(thresh, gts)
 
             loss = loss1 + loss2 + loss3 + loss4 + loss5 + 0.1*loss6 + 0.1*loss7
             
