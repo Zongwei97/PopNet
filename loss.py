@@ -1,8 +1,9 @@
 import torch
 import torch.nn as nn
 
-cos = nn.CosineSimilarity(dim=1, eps=0)
-    
+get_gradient = Sobel().cuda()
+cos = nn.CosineSimilarity(dim=1, eps=0)    
+
 class SSIM(torch.nn.Module):
     def __init__(self):
         super(SSIM, self).__init__()
