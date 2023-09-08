@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 
+cos = nn.CosineSimilarity(dim=1, eps=0)
     
 class SSIM(torch.nn.Module):
     def __init__(self):
