@@ -85,7 +85,7 @@ If you find this repo useful, please consider citing:
 
 # Open Discussion
 
-In the paper, we have made "an assumption that pixels in front of the contact surface belong to objects". Thus, we conduct Dpo-Dc for depth2semantic transfer. However, it would be more logical and reasonable if we used Dc-Dpo. However, such a difference should not severely impact the final results.
+In the paper, we have made "an assumption that pixels in front of the contact surface belong to objects". Thus, we conduct Dpo-Dc for depth2semantic transfer. While it may be more logical and reasonable if we used Dc-Dpo, however, such a difference should not severely impact the final results.
 
 
 
