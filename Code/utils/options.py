@@ -1,4 +1,4 @@
-import argparse
+² import argparse
 
 
 parser = argparse.ArgumentParser()
@@ -10,7 +10,9 @@ parser.add_argument('--clip',        type=float, default=0.5,   help='gradient c
 parser.add_argument('--lw',          type=float, default=0.001, help='weight')
 parser.add_argument('--decay_rate',  type=float, default=0.1,   help='decay rate of learning rate')
 parser.add_argument('--decay_epoch', type=int,   default=60,    help='every n epochs decay learning rate')
-parser.add_argument('--load',        type=str,   default='./SPNet_epoch_best.pth',  help='train from checkpoints')
+#parser.add_argument('--load',        type=str,   default='./SPNet_epoch_best.pth',  help='train from checkpoints') # if continue learning from previous stage
+parser.add_argument('--load',        type=str,   default='',  help='train from checkpoints')
+
 parser.add_argument('--gpu_id',      type=str,   default='1',   help='train use gpu')
 
 parser.add_argument('--rgb_label_root',      type=str, default='./COD-TrainDataset/Imgs/',           help='the training rgb images root')
